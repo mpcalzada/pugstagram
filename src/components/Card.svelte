@@ -3,6 +3,7 @@
   import Modal from "./Modal.svelte";
   import Share from "./Share.svelte";
   import { blur } from "svelte/transition";
+  import { likeCount } from "../store/store";
 
   export let username;
   export let location;
@@ -21,6 +22,11 @@
 
   function handleLike() {
     like = !like;
+    if (like) {
+      likeCount.update((n) => n + 1);
+    } else {
+      likeCount.update((n) => n - 1);
+    }
   }
 </script>
 
