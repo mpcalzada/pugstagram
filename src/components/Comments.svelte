@@ -1,5 +1,5 @@
 <script>
-  import App from "../containers/App.svelte";
+  import App from "../routes/index.svelte";
 
   export let comments = [];
 

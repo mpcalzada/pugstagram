@@ -7,26 +7,19 @@
     "dev": "sapper dev",
     "build": "sapper build",
     "export": "sapper export",
-    "start": "node _sapper_/build"
+    "start": "node __sapper__/build"
   },
   "author": "Marco Calzada",
   "license": "MIT",
   "dependencies": {
     "compression": "^1.7.4",
     "polka": "^0.5.2",
-    "sirv": "^1.0.11",
-    "svelte": "^3.34.0"
+    "sirv": "^0.4.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.8",
-    "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.13.8",
-    "babel-loader": "^8.2.2",
-    "html-webpack-plugin": "^5.2.0",
-    "sapper": "^0.29.1",
-    "svelte-loader": "^3.0.0",
-    "webpack": "^5.24.2",
-    "webpack-cli": "^4.5.0",
-    "webpack-dev-server": "^3.11.2"
+    "svelte": "^3.18.2",
+    "sapper": "^0.27.12",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.41.6"
   }
 }
